@@ -14,8 +14,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Oiiiiii!!! Meu nome é Raí!',
+  tagline: 'Tudo bem? :D',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -73,21 +73,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Raí Cajé',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/rei.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Quem sou eu?',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Portfólio', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/raideoliveira',
             label: 'GitHub',
             position: 'right',
           },
@@ -97,41 +97,37 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Quem sou eu?',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Quem sou eu?',
+                to: '/docs/quem_sou_eu',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Redes sociais',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/raideoliveira/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'LastFM',
+                href: 'https://www.last.fm/user/CoffeeCoffin',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Portfólio',
             items: [
               {
-                label: 'Blog',
+                label: 'Meu portfólio pessoal',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Meu Github',
+                href: 'https://github.com/RaiDeOliveira',
               },
             ],
           },
